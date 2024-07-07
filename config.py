@@ -30,32 +30,32 @@ def is_enabled(value, default):
 # Ask Doubt on telegram @KingVJ01
       
 # Owner Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-ADMINS = int(environ.get("ADMINS", ""))
+API_ID = int(environ.get("API_ID", "26626715"))
+API_HASH = environ.get("API_HASH", "967f1c73aa77a29009bc364edd30b525")
+ADMINS = int(environ.get("ADMINS", "7216492043"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
-DB_URI = environ.get("DB_URI", "")
-DB_NAME = environ.get("DB_NAME", "vjbotz")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://cdbpandafile:cdbpandafile@cdbpandafile.vmtpr6u.mongodb.net/?retryWrites=true&w=majority&appName=CDBPandaFile")
+CDB_NAME = environ.get("CDB_NAME", "cdbpandafile")
+DB_URI = environ.get("DB_URI", "mongodb+srv://PandaFilter02:PandaFilter02@pandafilter.ncy0fyc.mongodb.net/?retryWrites=true&w=majority&appName=PandaFilter")
+DB_NAME = environ.get("DB_NAME", "PandaFilter02")
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # your bot username without @
-PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
+BOT_TOKEN = environ.get("BOT_TOKEN", "7215243394:AAEvZUctNooq8kvxCJXtTUxrcj1N2t2Su4Q")
+BOT_USERNAME = environ.get("BOT_USERNAME", "panda_1filter_bot") # your bot username without @
+PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://telegra.ph/file/d71a829bd664bbb21fc0a.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002187486541"))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002051659577')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
